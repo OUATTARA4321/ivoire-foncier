@@ -1,36 +1,31 @@
 # Ivoire Foncier
 
-Plateforme de gestion foncière et immobilière pour la Côte d'Ivoire.
+Ivoire Foncier est une plateforme de gestion foncière pensée pour la Côte d’Ivoire. Elle permet de centraliser les biens immobiliers, les demandes de terrain, les documents de propriété et les transactions dans un espace unique, clair et sécurisé.
 
 ## Objectif
 
-Ivoire Foncier vise à simplifier la gestion des biens immobiliers, la recherche de terrains, la gestion des dossiers, et le suivi des transactions foncières de manière claire, sécurisée et accessible.
+Simplifier la gestion immobilière et foncière pour les particuliers, promoteurs, agents immobiliers et collectivités.
 
-## Fonctionnalités prévues
+## Fonctionnalités principales
 
-- Recherche de terrains par région, commune et prix
-- Gestion des dossiers fonciers et documents
-- Suivi des transactions et des demandes
+- Recherche intelligente de biens et terrains
+- Gestion des dossiers immobiliers
+- Suivi des transactions et demandes
 - Tableau de bord administratif
-- Statistiques et reporting
+- Gestion des documents et pièces justificatives
 - Interface moderne et responsive
 
-## Structure du projet
+## Stack actuelle
 
-```text
-.
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-├── .gitignore
-└── assets/
-```
+- HTML5
+- CSS3
+- JavaScript
 
-## Démarrage rapide
+## Démarrage local
 
-1. Ouvrez le fichier `index.html` dans votre navigateur
-2. Ou lancez un petit serveur local :
+Ouvrez simplement le fichier `index.html` dans votre navigateur.
+
+Pour lancer un serveur local :
 
 ```bash
 python -m http.server 8000
@@ -38,14 +33,6 @@ python -m http.server 8000
 
 Puis ouvrez : http://localhost:8000
 
-## Prochaines étapes
+## Vision du projet
 
-- Ajouter une authentification
-- Créer un tableau de bord administrateur
-- Ajouter un backend avec API REST
-- Implémenter la base de données
-- Connecter la gestion des fichiers et documents
-
-## Licence
-
-Ce projet est sous licence MIT.
+Ivoire Foncier a pour ambition de moderniser l’accès au foncier en Côte d’Ivoire avec une solution plus transparente, plus fiable et plus rapide pour la gestion immobilière.
