@@ -1,0 +1,80 @@
+export type Property = {
+  slug: string;
+  name: string;
+  location: string;
+  price: string;
+  type: string;
+  surface: string;
+  rooms: string;
+  status: string;
+  color: string;
+};
+
+export const propertyData: Property[] = [
+  {
+    slug: 'villa-cocody',
+    name: 'Villa premium Cocody',
+    location: 'Cocody, Abidjan',
+    price: '72 M FCFA',
+    type: 'Villa',
+    surface: '280 m²',
+    rooms: '4 chambres',
+    status: 'Disponible',
+    color: 'linear-gradient(135deg, #0b6b4a, #81d8b4)',
+  },
+  {
+    slug: 'appartement-plateau',
+    name: 'Appartement Plateau',
+    location: 'Plateau, Abidjan',
+    price: '44 M FCFA',
+    type: 'Appartement',
+    surface: '120 m²',
+    rooms: '3 chambres',
+    status: 'À visiter',
+    color: 'linear-gradient(135deg, #1f2f3d, #607d8b)',
+  },
+  {
+    slug: 'terrain-marcory',
+    name: 'Terrain commercial Marcory',
+    location: 'Marcory, Abidjan',
+    price: '26 M FCFA',
+    type: 'Terrain',
+    surface: '450 m²',
+    rooms: 'Zone commerciale',
+    status: 'Disponible',
+    color: 'linear-gradient(135deg, #c78f2a, #f7d58d)',
+  },
+  {
+    slug: 'maison-yamoussoukro',
+    name: 'Maison familiale Yamoussoukro',
+    location: 'Yamoussoukro',
+    price: '58 M FCFA',
+    type: 'Maison',
+    surface: '210 m²',
+    rooms: '4 chambres',
+    status: 'Nouveau',
+    color: 'linear-gradient(135deg, #0a6b58, #3dab82)',
+  },
+  {
+    slug: 'bureau-san-pedro',
+    name: 'Bureau de prestige San Pedro',
+    location: 'San Pedro',
+    price: '33 M FCFA',
+    type: 'Bureau',
+    surface: '96 m²',
+    rooms: '2 bureaux',
+    status: 'Disponible',
+    color: 'linear-gradient(135deg, #314765, #a6b9d7)',
+  },
+  {
+    slug: 'terrain-daloa',
+    name: 'Terrain résidentiel Daloa',
+    location: 'Daloa',
+    price: '18 M FCFA',
+    type: 'Terrain',
+    surface: '500 m²',
+    rooms: 'Prêt à bâtir',
+    status: 'Très demandé',
+    color: 'linear-gradient(135deg, #486c4c, #8ec56e)',
+  },
+];
